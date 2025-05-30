@@ -1,0 +1,14 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_KeyboardZMK_LEFT
+    bool "Enable KeyboardZMK Left Shield"
+    default $(shields_list_contains,KeyboardZMK_LEFT)
+    help
+      Enable support for the left half of the KeyboardZMK split keyboard shield.
+
+config SHIELD_KeyboardZMK_RIGHT
+    bool "Enable KeyboardZMK Right Shield"
+    default $(shields_list_contains,KeyboardZMK_RIGHT)
+    help
+      Enable support for the right half of the KeyboardZMK split keyboard shield.
