@@ -1,15 +1,15 @@
 
-if SHIELD_KeyboardZMK_LEFT
+if SHIELD_lily58_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "KeyboardZMK"
+    default "lily58"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_KeyboardZMK_LEFT || SHIELD_KeyboardZMK_RIGHT
+if SHIELD_lily58_LEFT || SHIELD_lily58_RIGHT
 
 config ZMK_SPLIT
     default y
