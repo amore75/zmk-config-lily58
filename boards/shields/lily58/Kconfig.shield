@@ -3,12 +3,12 @@
 
 config SHIELD_lily58_LEFT
     bool "Enable lily58 Left Shield"
-    default $(shields_list_contains,KeyboardZMK_LEFT)
+    default $(shields_list_contains,lily58_LEFT)
     help
       Enable support for the left half of the KeyboardZMK split keyboard shield.
 
 config SHIELD_lily58_RIGHT
     bool "Enable lily58 Right Shield"
-    default $(shields_list_contains,KeyboardZMK_RIGHT)
+    default $(shields_list_contains,lily58_RIGHT)
     help
-      Enable support for the right half of the KeyboardZMK split keyboard shield.
+      Enable support for the right half of the lily58 split keyboard shield.
