@@ -1,14 +1,14 @@
 # Copyright (c) 2020 Pete Johanson
 # SPDX-License-Identifier: MIT
 
-config SHIELD_KeyboardZMK_LEFT
-    bool "Enable KeyboardZMK Left Shield"
+config SHIELD_lily58_LEFT
+    bool "Enable lily58 Left Shield"
     default $(shields_list_contains,KeyboardZMK_LEFT)
     help
       Enable support for the left half of the KeyboardZMK split keyboard shield.
 
-config SHIELD_KeyboardZMK_RIGHT
-    bool "Enable KeyboardZMK Right Shield"
+config SHIELD_lily58_RIGHT
+    bool "Enable lily58 Right Shield"
     default $(shields_list_contains,KeyboardZMK_RIGHT)
     help
       Enable support for the right half of the KeyboardZMK split keyboard shield.
